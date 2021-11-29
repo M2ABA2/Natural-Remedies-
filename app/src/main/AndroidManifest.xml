@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.makoele.naturalbeautyremediesforafricanskin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Custom remedy classes all referencing a single layout -->
+        <activity android:name=".remedylist.face.ScarRemedies"/>
+        <activity android:name=".remedylist.face.AcnePimplesRemedies"/>
+        <activity android:name=".remedylist.face.LipsRemedies"/>
+        <!-- Body classes -->
+        <activity android:name=".remedylist.body.UnderarmsRemedies"/>
+        <activity android:name=".remedylist.body.SoftFeetRemedies"/>
+        <activity android:name=".remedylist.body.StretchMarksRemedies"/>
+        <activity android:name=".remedylist.body.IngrownHairsRemedies"/>
+        <activity android:name=".remedylist.body.InnerThighRemedies"/>
+        <!-- Hair Classes -->
+        <activity android:name=".remedylist.hair.GrowthRemedies"/>
+        <activity android:name=".remedylist.hair.ProteinTreatmentRemedies"/>
+        <activity android:name=".remedylist.hair.ProductBuildupRemedies"/>
+    </application>
+
+</manifest>

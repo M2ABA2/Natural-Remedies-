@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A28089</color>
+    <color name="colorPrimaryDark">#070508</color>
+    <color name="colorAccent">#FCC201</color>
+    <color name="colorHeading">#12343B</color>
+    <color name="taupe">#BB8C68</color>
+    <color name="topaz">#FFC87C</color>
+    <color name="dark_topaz">#C0831C</color>
+    <color name="harvest_gold">#DB9200</color>
+    <color name="white">#FFFFFF</color>
+    <color name="turquoise">#30D5CD</color>
+    <color name="blue">#00BDCA</color>
+    <color name="seaweed">#1A8693</color>
+
+</resources>

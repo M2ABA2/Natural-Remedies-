@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bronze Queens</string>
+
+    <string name="tab_face">Face</string>
+    <string name="tab_hair">Hair</string>
+    <string name="tab_body">Body</string>
+    <string name="tab_health">Health</string>
+
+
+
+
+
+</resources>
